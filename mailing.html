@@ -6,42 +6,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrera Montagne</title>
-
+    
 </head>
 
 <body>
     <div class="body-mailing" ;>
-        <div class="logo">Logo</div>
+        <div class="logo">
+            </div>
         <div class="parte-superior">
             <div class="carrera-montagne">
-                <div>CARRERA<br><span class="montagne">MONTAGNE</span><br>BOSQUES DE PALERMO <div
-                        class="carrera-detalles">3K PARTICIPATIVOS
+                <div>CARRERA<br><span class="montagne">MONTAGNE</span><br>BOSQUES DE PALERMO 
+                    <div class="carrera-detalles"> 
+                        3K PARTICIPATIVOS
                         <br>15K COMPETITIVOS
                     </div>
                 </div>
             </div>
-            <div class="tipos-corriendo">Tipos corriendo</div>
+            <div class="tipos-corriendo"> </div>
         </div>
         <div class="kit-mapa">
             <div class="kit">
-                <div>Imagen de kit <br>Miles de kits de competición</div>
+                <div><img src="https://github.com/jkmazzetti/mailing/blob/main/img/kit_maraton.png?raw=true" alt=""> <br>Miles de kits de competición</div>
             </div>
             <div class="mapa">
-                <div>Imagen de mapa <br>Mapa de la competición.</div>
+                <div><img src="https://github.com/jkmazzetti/mailing/blob/main/img/mapa_maraton.JPG?raw=true" alt="Mapa"> <br>Mapa de la competición.</div>
             </div>
         </div>
-        <div class="medio">¡NO TE PIERDAS ESTOS PREMIOS!</div>
-        gregar la carpa acá
+        <div class="medio">
+            ¡NO TE PIERDAS ESTOS PREMIOS!
+            <img src="https://github.com/jkmazzetti/mailing/blob/main/img/carpas_nieve.png?raw=true" alt="">
+        </div>
+    
         <br>¡PARTICIPÁ Y <span class="gana">GANÁ</span>!
         <br>
         <div class="triptico">
-            <div class="premio">img <br>kit de camping</div>
-            <div class="premio">img <br>kit de trekking</div>
-            <div class="premio">img <br>ordenes de compra</div>
+            <div class="premio">
+                <img src="https://github.com/jkmazzetti/mailing/blob/main/img/kit_camping.png?raw=true" alt="Kit de Camping"> 
+                <br>Kit de Camping
+            </div>
+            <div class="premio">
+                <img src="https://github.com/jkmazzetti/mailing/blob/main/img/kit_trekking.jpg?raw=true" alt="Kit de Trekking"> 
+                <br>Kit de Trekking
+            </div>
+            <div class="premio">
+                <img src="https://github.com/jkmazzetti/mailing/blob/main/img/logotipo.png?raw=true" alt="Orden de Compra"> 
+                <br>Ordenes de Compra
+            </div>
         </div>
         <br>
-        <div class="bases">bases y condiciones</div>
-    </div>
+        <div class="bases">Bases y Condiciones:
+            Es requisito necesario para la adquisición de los productos que se ofrecen en este sitio, que lea y acepte los siguientes Términos y Condiciones que a continuación se redactan. El uso de nuestros servicios así como la compra de nuestros productos implicará que usted ha leído y aceptado los Términos y Condiciones de Uso en el presente documento. Todas los productos  que son ofrecidos por nuestro sitio web pudieran ser creadas, cobradas, enviadas o presentadas por una página web tercera y en tal caso estarían sujetas a sus propios Términos y Condiciones. En algunos casos, para adquirir un producto, será necesario el registro por parte del usuario, con ingreso de datos personales fidedignos y definición de una contraseña.
+            El usuario puede elegir y cambiar la clave para su acceso de administración de la cuenta en cualquier momento, en caso de que se haya registrado y que sea necesario para la compra de alguno de nuestros productos. www.montagne.com.ar no asume la responsabilidad en caso de que entregue dicha clave a terceros.
+            Todas las compras y transacciones que se lleven a cabo por medio de este sitio web, están sujetas a un proceso de confirmación y verificación, el cual podría incluir la verificación del stock y disponibilidad de producto, validación de la forma de pago, validación de la factura (en caso de existir) y el cumplimiento de las condiciones requeridas por el medio de pago seleccionado. En algunos casos puede que se requiera una verificación por medio de correo electrónico.
+            Los precios de los productos ofrecidos en esta Tienda Online es válido solamente en las compras realizadas en este sitio web.
+       </div>
 
 </body>
 
@@ -59,9 +77,11 @@
         padding: 5px;
     }
 
-    .logo {
-        /*Agregar imagen del logo...*/
-        padding: 50px;
+    .logo { 
+        background-image: url("https://github.com/jkmazzetti/mailing/blob/main/img/isologotipo.png?raw=true");
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 70px;
         color: #000000;
         background-color: #FFFFFF;
     }
@@ -70,24 +90,33 @@
     .kit-mapa {
         display: inline-flex;
     }
-
+    .kit-mapa img{
+        max-height: 200px;
+        width: auto ;
+    }
     .carrera-montagne,
     .tipos-corriendo {
-        width: 480px;
+        width: 440px;
+        height: 440px;
         color: #FFFFFF;
         background-color: #000000;
-        padding: 10px;
+        padding: 30px;
+        font-size: 50px;
+        text-align: left;
     }
 
     .carrera-detalles {
         /*Agregar imagen de backgroud...*/
         background-color: #FFFFFF;
         color: #000000;
+        font-size: 30px;
     }
 
     .tipos-corriendo {
-        padding: 10px;
-        background-color: brown;
+        padding: 30px;
+        background-color: brown;   
+        background-image: url("https://github.com/jkmazzetti/mailing/blob/main/img/gente_corriendo.png?raw=true");
+        background-position: center;
     }
 
     .montagne,
@@ -121,9 +150,18 @@
         padding: 10px;
         width: 300px;
     }
+    .premio img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 20%;
+        background-color: #FFFFFF;
+    }
     .bases{
         color: gray;
         background-color: #000000;
-        text-align: left;
+        text-align: justify;
+        font-size: 10px;
+        padding: 5px;
     }
 </style>
