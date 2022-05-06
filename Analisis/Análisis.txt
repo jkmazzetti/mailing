@@ -16,7 +16,7 @@ Newsletter.
 
 Paleta de colores: 
 #E2001A(Rojo), 
-#141417(Negro), 
+#141414(Gris oscuro), 
 #FFFFFF(Blanco)
 
 Idea públicitaría:
